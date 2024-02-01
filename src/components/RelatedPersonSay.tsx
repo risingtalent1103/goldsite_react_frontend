@@ -22,7 +22,7 @@ const RelatedPersonSay = ({ id,author, time, articleTitle, articleSubtitle, img_
                     <div className="sm:basis-[50%] md:basis-[40%] lg:basis-[30%] xl:basis-[100%]"><img src={img_url} className="hover:scale-110 duration-700"></img></div>
                     <div className="hidden sm:basis-[30%] sm:flex sm:flex-col gap-5 xl:hidden">
                         <div className="w-[100px] h-[100px] rounded-[50%] overflow-hidden">
-                            <img src="/images/125503.jpg" className="w-[100px] h-[100px]"></img>
+                            <img src="/icons/1.png" className="w-[100px] h-[100px]"></img>
                         </div>
                         <div className="flex flex-col justify-center gap-3">
                             <p className="font-bold text-[18px] text-black">{author}</p>
@@ -33,7 +33,7 @@ const RelatedPersonSay = ({ id,author, time, articleTitle, articleSubtitle, img_
                 <div className="basis-[75%] flex flex-col gap-8">
                     <div className="xl:flex xl:flex-row hidden gap-5">
                         <div className="w-[80px] h-[80px] rounded-[50%] overflow-hidden">
-                            <img src="/images/125503.jpg" className="w-[80px] h-[80px]"></img>
+                            <img src="/icons/1.png" className="w-[80px] h-[80px]"></img>
                         </div>
                         <div className="flex flex-col justify-center gap-3">
                             <p className="font-bold text-[18px] text-black">{author}</p>

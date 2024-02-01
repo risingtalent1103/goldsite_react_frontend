@@ -52,7 +52,7 @@ const ArticleDetail = () => {
                 <div className="text-xl text-black flex items-center">
                     <span className="pr-2">By :</span>
                     <span className="font-bold pr-2">GOLDEXCG.com</span>
-                    <div className="w-10 h-10 rounded-[50%] overflow-hidden"><img src="/images/125503.jpg" className="w-10 h-10"></img></div>
+                    <div className="w-10 h-10 rounded-[50%] overflow-hidden"><img src="/icons/1.png" className="w-10 h-10"></img></div>
                 </div>
                 <div className="text-[18px] text-gray-600 mb-3">
                     <span>Published: </span>
@@ -78,3 +78,4 @@ const ArticleDetail = () => {
 }
 
 export default ArticleDetail;
+

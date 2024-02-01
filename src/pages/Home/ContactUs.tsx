@@ -25,7 +25,7 @@ const ContactUs = () => {
         
         axios.post(`${basic_url}contact_us/${value.user}/${value.email}/${value.message}`,).then(() => {
             message.success("Left Message Successfully.")
-        }).catch(() => message.error("Subscribe Error") )
+        }).catch(() => message.error("Newtwork Error") )
     };
 
     return (

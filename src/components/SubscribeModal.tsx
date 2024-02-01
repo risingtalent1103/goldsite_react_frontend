@@ -36,9 +36,13 @@ const SubscribeModal = ({ visible, setVisible }: props) => {
 
     const onFinish = (value: any) => {
         setVisible(false);
-        axios.post(`${basic_url}subscribe_email/${value.email}`).then(() => {
-            message.success("Subscribed your email successfully.")
-        }).catch(() => message.error("Subscribe Error") )
+        if(value.email !== undefined){
+            axios.post(`${basic_url}subscribers/subscribe_email/${value.email}`).then(() => {
+                message.success("Subscribed your email successfully.")
+            }).catch((err) => {
+                message.error(err.response.data.error)
+            })
+        }
       };
 
     return (
