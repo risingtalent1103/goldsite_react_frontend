@@ -30,7 +30,7 @@ const ContactUs = () => {
 
     return (
         <>
-            <div className="container mt-[150px] flex gap-10">
+            <div className="container mt-[150px] flex lg:flex-row flex-col  lg:gap-10 gap-24">
                 <div className="basis-[35%] flex flex-col gap-10">
                     <div className="bg-[#1d4354] text-[white] text-5xl py-5 pl-5 pr-10 ">
                         Contact Info
@@ -52,7 +52,7 @@ const ContactUs = () => {
                         <p style={{fontFamily: "cursive"}}>goldexcg@outlook.com</p>
                     </div>
                 </div>
-                <div className="basis-[65%] flex flex-col gap-10">
+                <div className="basis-[65%] flex flex-col gap-10 mb-14">
                     <div className="bg-[#1d4354] text-[white] text-5xl py-5 pl-5 pr-10">
                         Leave Us Message
                     </div>
